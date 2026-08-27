@@ -30,7 +30,7 @@ import time
 app = Flask(__name__)
 CORS(app)
 
-API_KEY = os.environ.get("NUSKHA_EYE_API_KEY", "CHANGE_ME_SECRET_KEY")  # must match includes/var.php
+API_KEY = os.environ.get("NUSKHA_EYE_API_KEY", "nuskha-eyeapi-9z82xEn71-secure-2k26")  # must match includes/var.php
 
 # ---------------------------------------------------------------------------
 # Predefined color -> condition rules (mirrors admin-editable `eye_condition_rules`
